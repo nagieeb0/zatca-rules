@@ -5,6 +5,7 @@ message, the severity (error = rejected, warning = accepted with a warning), the
 (which sometimes differs from the published text), and a plain explanation and fix in English and Arabic.
 
 - **245 rules**, from the Schematron files in ZATCA E-invoicing SDK **3.4.8**.
+- Also on Hugging Face: https://huggingface.co/datasets/nagieeb/zatca-rules
 - `rules.json`: one object per rule (`id`, `severity`, `official_text`, `fails_when`, `en_title`, `en_meaning`, `en_fix`, `ar_title`, `ar_meaning`, `ar_fix`, `applies_to`, `fields`, `url_en`, `url_ar`).
 - Every rule has a page: English at `https://matheel.app/en/zatca-errors/<id>`, Arabic at `https://matheel.app/akhta/<id>`.
 - Validate an invoice against these rules in your browser, free: **https://matheel.app/en/zatca-validator** (Arabic: https://matheel.app/fahs).
